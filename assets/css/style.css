@@ -13,8 +13,7 @@ header {
   background-color: white;
   border-bottom: 1px solid #f3735f;
   margin-bottom: 60px;
-  padding-bottom: 24.53px;
-  padding-top: 24px;
+  padding-top: 24px 0 24.53px 0;
 }
 
 footer {
