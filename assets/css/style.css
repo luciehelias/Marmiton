@@ -5,6 +5,10 @@ body {
   background-color: #efefef;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 header {
   background-color: white;
   border-bottom: 1px solid #f3735f;
@@ -44,7 +48,7 @@ h2 {
   font-weight: bold;
   color: #f3735f;
   margin-top: 70px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 h3 {
@@ -81,8 +85,8 @@ li {
 
 .container {
   width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
 }
 
 .baseline {
@@ -94,7 +98,7 @@ li {
 .time {
   padding: 9px 83px 10px 83px;
   background-color: #8a98b1;
-  width: 234px;
+  width: 400px;
   border-radius: 10px;
   text-align: center;
   font-size: 22px;
